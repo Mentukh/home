@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 25px;
+}
+
+h1, h2, h3 {
+	padding: 0;
+	margin: 0;
+}
+
+ul, li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: url(../img/header-bg.jpg) no-repeat center top / cover;
+	color: #fff;
+	padding-top: 0px;
+	height: 100vh;
+}
+
+header a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li {
+	margin-right: 78px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	padding-top: 30px;
+}
+
+.tel {
+	margin-left: auto;
+	font-weight: 600;
+}
+
+.logo {
+	margin-right: 150px;
+}
+
+.offer {
+	display: block;
+	width: 593px;
+
+}
+
+.offer h1 {
+	margin-top: -16px;
+	padding-top: 229px;
+	font-size: 60px;
+	line-height: 0.9em;
+	text-transform: uppercase;
+}
+
+.offer p {
+	padding-top: 28px;
+	margin: 0;
+	font-size: 40px;
+
+}
+
+.btn {
+	display: block;
+	border: 3px solid #fff;
+	width: 350px;
+	text-align: center;
+	padding:23px;
+	margin-top: 45px;
+}
